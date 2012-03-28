@@ -1,0 +1,24 @@
+/* 
+Tidepool CSS Stylesheet 
+File History:
+3/27/12 created, Michael J. DeLuca michaeljdeluca@gmail.com
+
+Creative Commons:
+Tidepool was created by Don Blair and is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License. Dark Ally Redesign™, a project by Stephanie Jo Kent, is an education and consulting company specializing in discourse diagnosis and design for systems change. Follow us on Twitter! @adarkally @stephjoke
+
+*/
+
+html body {
+margin: 0;
+padding: 0;
+background: black;
+color:#eee; 
+font: 14px "Helvetica","Arial",tahoma,sans-serif; 
+}
+h1, h3 { font-family: "Georgia","Times",serif; font-style: italic; font-weight: normal; }
+a { color: red; text-decoration:none; }
+a:hover { text-decoration:underline; }
+
+canvas#tweets { image-rendering: -moz-crisp-edges ! important; }
+
+#header, #footer { margin:5px 30px 0; padding:0 5px; }
