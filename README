@@ -1,0 +1,12 @@
+TIDEPOOL is an open source Twitter visualization tool. Basically, in this, its nascent version, it follows a certain #hashtag in real time and renders visually the frequency of words used in tweets featuring that hashtag.
+
+Tidepool is written in Processing.js. Processing.js is a set of JQuery JavaScript libraries which allow the Java-based Processing visual programming language to be written in JavaScript and thus run in any HTML5 compatible browser.
+
+
+Creative Commons:
+Tidepool was created by Don Blair and is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License. Dark Ally Redesign™, a project by Stephanie Jo Kent, is an education and consulting company specializing in discourse diagnosis and design for systems change. Follow us on Twitter! @adarkally @stephjoke
+
+http://creativecommons.org/licenses/by-nc-sa/3.0/
+http://darkallyredesign.com/tidepool
+http://darkallyredesign.com/tweets/tidepool
+http://processingjs.org/
