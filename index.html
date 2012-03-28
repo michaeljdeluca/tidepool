@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!-- 
+Tidepool HTML file
+File History:
+- Original saved from url=(0099)http://scotland.proximity.on.ca/dxr/tmp/processing-mobile/examples/twitter/blprnt-twitter-demo.html
+- 3/26/2012 Don Blair, added some helpful comments 
+- 3/27/2012 Michael Deluca, cleaned up HTML, moved CSS to external stylesheet, moved processing code to tidepool.pde.
+
+Creative Commons:
+Tidepool was created by Don Blair and is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License. Dark Ally Redesign™, a project by Stephanie Jo Kent, is an education and consulting company specializing in discourse diagnosis and design for systems change. Follow us on Twitter! @adarkally @stephjoke
+
+-->
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <script async="" src="http://search.twitter.com/search.json?q=%23OWS&rpp=100&callback=jQuery16404382041706703603_1321246653979&_=1321246687020"></script> 
+  <title>Tidepool - open source Twitter visualiser - alpha version</title>
+  <link rel="stylesheet" href="tidepool.css" type="text/css" media="screen" />
+  <script src="js/processing.js" type="text/javascript"></script>
+  <script src="js/processing-twitter.js" type="text/javascript"></script>
+  <script src="js/jquery.min.js"></script></head>
+  <script src="js/processing.util.js"></script>
+</head>
+<body>
+
+  <div id="header">
+	<h1><a href="http://darkallyredesign.com/tweets/tidepool">Tidepool</a> - An open source Twitter hashtag visualiser</h1>
+  </div>
+  <canvas id="tweets" data-processing-sources="tidepool.pde"></canvas>
+  <div id="footer">
+  	<p><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/InteractiveResource" property="dct:title" rel="dct:type">Tidepool</span> was created by <a xmlns:cc="http://creativecommons.org/ns#" href="http://donblair.cc" property="cc:attributionName" rel="cc:attributionURL">Don Blair</a> and is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>. <a href="http://darkallyredesign.com">Dark Ally Redesign</a>&trade;, a project by <a href="http://reflexivity.us">Stephanie Jo Kent</a>, is an education and consulting company specializing in discourse diagnosis and design for systems change. Follow us on Twitter! <a href="http://twitter.com/adarkally">@adarkally</a> <a href="http://twitter.com/adarkally">@stephjoke</a></p>
+  </div>
+
+</body>
+</html>
